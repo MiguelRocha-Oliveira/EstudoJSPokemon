@@ -21,7 +21,7 @@ console.log (numero!==1) //compara valor e tipo
 
 let idade =18
 let idade2 = 16
-let comparar = idade > idade2 //comparando as variáveis pode ser com "menor" "maior ou igual" ou "maior ou menor"
+let comparar = idade > idade2 //comparando as variáveis pode ser com "menor" "maior ou igual" ou "maior ou menor".
 console.log(comparar) //retorna comparação se colocar uma "!" antes de comparar, inverte o valor de true para false e vice versa
 
 
@@ -36,6 +36,7 @@ let quantidade = 0
 do {
     console.log("\nvoce tem:"+quantidade)
     quantidade++
-}while (quantidade <= 5) //do while, caso o do venha primeira, semore será executado o laço pelo menos uma vez
+    quantidade++
+}while (quantidade <= 5) //do while, caso o do venha primeira, semore será executado o laço pelo menos uma vez.
 
     
