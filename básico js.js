@@ -14,7 +14,7 @@ const notificação ="Alerta: "
 console.log (notificação + "NOVO POKÉMON NA REGIÃO")
 
 let numero = "1"
-console.log (numero==1) //== compara valor
+console.log (numero==1) //== compara apenas o valor indpendente do tipo
 console.log (numero===1) //compara valor e tipo
 console.log (numero!=1) //== compara valor
 console.log (numero!==1) //compara valor e tipo
